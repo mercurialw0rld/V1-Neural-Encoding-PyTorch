@@ -12,7 +12,7 @@ Utilizando el dataset de *Steinmetz et al.* (neuropixels en ratones), entrené m
 
 ### Descubrimiento de Curvas de Sintonización (Tuning Curves)
 La red neuronal (MLP) descubrió exitosamente que las neuronas de V1 poseen **preferencias de estímulo**.
-
+<img src="neuralresponde.png"></img>
 > **Hallazgo:** La neurona analizada mostró una respuesta excitatoria hasta un contraste total de ~0.5, seguida de una inhibición (control de ganancia) en contrastes altos.
 * **Factor de Fano ($F$):** Se calculó un $F \approx 2.0$.
 * **Interpretación:** La neurona exhibe un comportamiento "Super-Poisson", indicando una variabilidad superior al azar, consistente con mecanismos de disparo en ráfagas (*bursting*).
