@@ -1,4 +1,3 @@
-# V1-Neural-Encoding-PyTorch
 # 🧠 NeuroAI: Modelado de la Corteza Visual con PyTorch
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
@@ -9,9 +8,9 @@ Este proyecto explora la intersección entre la **Neurociencia Computacional** y
 
 Utilizando el dataset de *Steinmetz et al.* (neuropixels en ratones), entrené modelos para predecir la tasa de disparo neuronal (*spiking rate*) basándose en estímulos visuales.
 
-## 📊 Resultados Clave
+## 📊 Resultado Clave
 
-### 1. Descubrimiento de Curvas de Sintonización (Tuning Curves)
+### Descubrimiento de Curvas de Sintonización (Tuning Curves)
 La red neuronal (MLP) descubrió exitosamente que las neuronas de V1 poseen **preferencias de estímulo**.
 
 > **Hallazgo:** La neurona analizada mostró una respuesta excitatoria hasta un contraste total de ~0.5, seguida de una inhibición (control de ganancia) en contrastes altos.
